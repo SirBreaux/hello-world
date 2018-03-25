@@ -1,0 +1,15 @@
+#Converting celcius into fahrenheit
+
+celcius = int(input("Please enter the temperature in (Celcius): "))
+
+fahrenheit = 9 / 5 * celcius + 32
+
+print("The temperature is " + str(fahrenheit) + " degrees Fahrenheit.")
+
+#Converting fahrenheit into celcius
+
+fahrenheit2 = int(input("Please enter the temperature in (Fahrenheit): "))
+
+celcius = (fahrenheit2 - 32) * 5 / 9
+
+print("The temperature is " + str(celcius) + " degrees Celcius.")
